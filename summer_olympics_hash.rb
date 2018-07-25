@@ -17,7 +17,7 @@
 
 def create_olympics_hash
   places_array = [":Sydney", ":Athens", ":Beijing", ":London"]
-  years_array = [:000, 2004, 2008, 2012]
+  years_array = [2000, 2004, 2008, 2012]
 
   places_years = 0  
   create_olympics_hash = {}
