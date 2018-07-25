@@ -68,7 +68,10 @@ create_olympics_hash = {
   :London => "2012"
 }
 
-
+create_olympics_hash.each do |places, years|
+  puts "The #{places} summer olympics took place in #{years}."
+places = 0 
+end 
 
 
 
